@@ -4,77 +4,23 @@
         <meta charset=UTF-8>
         <title>YT News</title>
         <style>
-            .video-container {
-                width: 550px;
-                height: 315px;
+            iframe{
+                width:"550";
+                height:"315";
             }
-            .custom-button {
-                margin: 6px;
-                padding: 10px 20px;
-                border-radius: 10px;
-                background-color: gray;
-                border: none;
-                cursor: pointer;
-                font-weight: normal;
-                transition: background-color 0.3s ease;
-                transition: font-weight 0.3s ease;
-            }
-            .custom-button:hover {
-                background-color: green;
-                font-weight: bold;
-            }
-            .custom-button:active {
-                background-color: goldenrod;
-            }
-            .news-section:hover {
-                background-color: rgb(45, 59, 30);                
-            }
-            section:hover h3 {
-                font-weight: bold;
-            }
-
         </style>
-        <script>
-            function changeVideoSource(src) {
-                document.getElementById('video-player').src = src;
-            }
-        </script>
     </head>
     <body style="background-color: black;color: gray;">
         <nav>
             <a href="../../index.html">Home</a>
         </nav>
-        <section id="tamil news" class="news-section">
-            <h3>தமிழ்</h3>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/RUzgphgBRzI')">Pythiyathalaimurai News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/UI1tEhod01E')">Polimer News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/9M02G5c6x6w')">Sun News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/FeweQREkl44')">Thanthi TV News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/iuNsCWGPdAo')">Kalaignar News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/D6rDYW2M3mo')">News 18 TN</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/eBFu7PWZ8l8')">News J</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/UQyQNDbUyNE')">NewsTamil24x7</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/WpMgFx3DwK0')">Sathiyam News</button>
+        <section>
+            <a href="news-v1.html">page version 1</a>
+            <a href="news-v2.html">page version 2</a>
         </section>
-        <section class="news-section">
-            <h3>English</h3>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/Nen3UXaWDDE')">NDTV</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/MN8p-Vrn6G0')">NDTV India</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/gtk4Xw57eEw')">CNN News 18</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/wfAa1GiNdgM')">United Nations</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/LaXoaMJXw0c')">Times Now</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/SSdzyMZ5aCo')">India Today</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/JasWKoqFxog')">LiveNOW from FOX Today</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/tkDUSYHoKxE')">FRANCE 24 English</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/gCNeDWCI0vo')">Al Jazeera English</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/35Kwu7f1p4k')">WION</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/OOtxXPaQvoM')">ABC News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/vOTiJkg1voo')">ABC News (Australia)</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/iyOq8DhaMYw')">Bloomberg Business News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/pqabxBKzZ6M')">DW News</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/vZYMwAm8sso')">USA Today</button>
-            <button class="custom-button" onclick="changeVideoSource('https://www.youtube-nocookie.com/embed/P857H4ej')">CNBC TV18</button>
-        </section>
-        <iframe id="video-player" class="video-container" src="" title="News Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+            A page with major new channels live stream links added in a single page for easy view
+        </p>
+             
     </body>
 </html>
